@@ -12,7 +12,7 @@ Use version v1.7.2 of the standard library with Agda 2.6.3.
    done manually by visiting the Github repository for the library, or via the
    command line as follows:
    ```
-   wget -O agda-stdlib.tar https://github.com/agda/agda-stdlib/archive/v1.7.2.tar.gz
+   wget -O agda-stdlib.tar.gz https://github.com/agda/agda-stdlib/archive/v1.7.2.tar.gz
    ```
    Note that you can replace `wget` with other popular tools such as `curl` and that
    you can replace `1.7.2` with any other version of the library you desire.
@@ -20,7 +20,7 @@ Use version v1.7.2 of the standard library with Agda 2.6.3.
 3. Extract the standard library from the tarball. Again this can either be
    done manually or via the command line as follows:
    ```
-   tar -zxvf agda-stdlib.tar
+   tar -zxvf agda-stdlib.tar.gz
    ```
 
 4. [ OPTIONAL ] If using [cabal](https://www.haskell.org/cabal/) then run
